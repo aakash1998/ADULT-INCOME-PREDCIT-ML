@@ -1,0 +1,76 @@
+<!--Reference from Corey Schafer YouTube-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input User Details</title>
+</head>
+<body>
+<div>
+  <div>PREDICT YOUR INCOME</div>
+    <form method="post" , action="">
+        <div>
+            <fieldset>
+                <div>
+                    <span>{{form.Age.label}}</span>
+                    <p>{{form.Age()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Hours_Per_Week.label}}</span>
+                    <p>{{form.Hours_Per_Week()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Final_Weight.label}}</span>
+                    <p>{{form.Final_Weight()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Workclass.label}}</span>
+                    <p>{{form.Workclass()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Education.label}}</span>
+                    <p>{{form.Education()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Martial_Status.label}}</span>
+                    <p>{{form.Martial_Status()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Occupation.label}}</span>
+                    <p>{{form.Occupation()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Relationship.label}}</span>
+                    <p>{{form.Relationship()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Race.label}}</span>
+                    <p>{{form.Race()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Sex.label}}</span>
+                    <p>{{form.Sex()}}</p>
+                </div>
+
+                <div>
+                    <span>{{form.Country.label}}</span>
+                    <p>{{form.Country()}}</p>
+                </div>
+            </fieldset>
+            <div>
+                {{form.submit()}}
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
